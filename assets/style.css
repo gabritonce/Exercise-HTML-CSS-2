@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body {
+    margin: 0px;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+    background-image: url(img/sfondo.png);
+    background-size: 100%;
+    line-height: 1.2em;
+}
+
+#immagine {
+    text-align: center;
+}
+
+#header {
+    text-align: center;
+    padding: 30px;
+    background: linear-gradient(rgba(0, 160, 198, 1), rgba(3, 109, 134, 1));
+    box-shadow: 5px 5px 5px #000000;
+    margin-bottom: 40px;
+    
+}
+
+#testo-epicode {
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+#hoover:hover{
+    color: red;
+}
+
+#hoover a {
+    color: white;
+    text-decoration: none
+    
+
+}
+
+#hoover {
+    color: white;
+    list-style-type: none;
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+    
+
+}
+
+main {
+    box-shadow: inset;
+    margin: 5px;
+    padding: 5px;
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+span{ 
+    background-color: #ededed;
+    border: 1px solid #a0a0a0;
+    border-radius: 5px;
+}
+.colore-rosa{
+    color: #ec2de9;
+}
+
+#tabella {
+    width: 100%;
+    border-bottom:2px solid#3f6bca ;
+}
+
+#mario {
+    color: #a0a0a0;
+}
+
+#t-header {
+    background-color: #3f6bca;
+    color: white;
+    height: 60px;
+}
+td{
+    padding: 25px;
+}
+tr{
+    height: 60px;
+    
+}
+tr:nth-child(even){
+    background-color: #ededed;
+}
+#novità {
+    margin: 15px;
+    padding: 15px;
+    background-color: #c0bcbc;
+    
+}
+
+#novita-titolo{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+}
+.testo-novità{
+    text-align: left;
+}
+.validare {
+
+    margin: 15px;
+    padding: 15px;
+    background-color: #c0bcbc;
+    text-align: left;
+}
+
+.data {
+    text-align: right;
+}
+
+#footer {
+    margin: 5px;
+    padding: 5px;
+    background: linear-gradient(rgba(3, 109, 134, 1), rgba(0, 160, 198, 1));
+    text-align: center;
+    color: white;
+    box-shadow: 5px 5px 5px #000000
+}
+
+#contenuto-video {
+    border-radius: 10px;
+    width: 100%;
+}
+
+#bottone {
+    background-color: #3f6bca;
+    color: white;
+    border-top: dashed black solid;
+}
+#label-email{
+    border-bottom: dashed 3px black solid;
+}

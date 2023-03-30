@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Sviluppo di una pagina web - Blog Epicode</title>
+</head>
+
+<body>
+    <div id="container">
+        <header id="header">
+            <div id="immagine">
+                <img src="assets/img/logo.svg" alt="Logo Epicode" width="100%" height="80px">
+            </div>
+            <h2 id="testo-epicode">EPiCODE - IL BLOG DEI DEVELOPERS </h2>
+            <div id="menu">
+                <nav>
+                    <ul id="hoover">
+                        <li><a href="javascript:void(0)"></i>HOME</a></li>
+                        <li><a href="javascript:void(0)"></i>ARTICOLI</a></li>
+                        <li><a href="javascript:void(0)"></i>LAVORA CON NOI</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main id="main">
+            <h2>Come creare un template per i post</h2>
+            <p id="mario">di Mario Rossi - pubblicato il 25-10-2020</p>
+            <section id="contenuto-post">
+                <div id="post">
+                    <p>La prima cosa da fare è suddividere in blocchi logici la pagina, identificando le <b
+                            class="colore-rosa">parti
+                            comuni</b> da applicare a tutte le pagine</p>
+                    <p>Le varie aree saranno quindi suddivise in:</p>
+                    <div id="elenco">
+                        <ul>
+                            <li>
+                                Contenuti di intestazione del tag
+                                <span><code>&lt;header&gt;</code></span>
+                            </li>
+                            <li>
+                                Contenuti centrali variabili del tag
+                                <span><code>&lt;main&gt;</code></span> (corpo principale)
+                            </li>
+                            <li>
+                                Contenuti di fine pagina comuni, da inserire nel tag
+                                <span><code>&lt;footer&gt;</code></span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <h2>Formattazione del codice</h2>
+            <p>Il testo dell'articolo dovrà essere formattato per identificare tutte le parti da <strong
+                    class="colore-rosa">selezionare con
+                    i CSS.</strong> Perciò i passi saranno:</p>
+            <div id="elenco-ordinato">
+                <ol>
+                    <li>Progettare su carta il markup finale, assegnando ad ogni specifico testo il tag appropriato</li>
+                    <li>Scrivere l'HTML dai tag esterni a quelli interni e dall'alto verso il basso</li>
+                    <li>Applicare gli stili CSS</li>
+                </ol>
+            </div>
+            <p>L'applicazione di stili CSS è cresciuta negli anni fino a raggiungere la diffusione pressoché totale.</p>
+            <div >
+                <table id="tabella">
+                    <caption><strong> Diffusione dei CSS</strong> </caption>
+                    <thead>
+                        <tr id="t-header">
+                            <td><strong class="padding-td">Anno</strong></td>
+                            <td> <strong class="padding-td">% di utilizzo </strong></td>
+                            <td> <strong class="padding-td">browsers</strong> </td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>2000</td>
+                            <td>20% </td>
+                            <td>17%</td>
+                        </tr>
+                        <tr>
+                            <td>2002</td>
+                            <td>35% </td>
+                            <td>22%</td>
+                        </tr>
+                        <tr>
+                            <td>2004</td>
+                            <td>45%</td>
+                            <td>42%</td>
+                        </tr>
+                        <tr>
+                            <td>2008</td>
+                            <td>80% </td>
+                            <td>51%</td>
+                        </tr>
+                        <tr>
+                            <td>2012</td>
+                            <td>100%</td>
+                            <td>76%</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <p>Un test di validazione potrà essere fatto tramite il <a href="https://jigsaw.w3.org/css-validator/"
+                    title="tool-online" target="_blank">tool online</a> dedicato allo scopo. Una volta ottimizzato il
+                tutto, avremo raggiunto il nostro obiettivo ed essere stati dei veri developers come loro:</p>
+            <div>
+                <iframe id="contenuto-video" width="560" height="315" src="https://www.youtube.com/embed/IjzdMvuzxDY"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            </div>
+
+            <div id="novità">
+                <h2 id="novita-titolo">Novità</h2>
+                <p id="testo-novità">Vuoi rimanere aggiornato su altre novità del blog? Iscriviti alla nostra newsletter:</p>
+
+                <div id="form-newsletter">
+                    <form action="index.html">
+                        
+                            <label id="label-email" for="emial"></label>
+                            <input type="emial" name="email" id="email" placeholder="inserisci l'email ">
+                            <button id="bottone" type="submit">Iscriviti! </button>
+                      
+                    </form>
+                </div>
+            </div>
+            <aside>
+                <div id="articoli-corelati">
+                    <h2>Articoli correlati</h2>
+                    <a href="javascript:void(0)">
+                        <div class="validare">
+                            <p>Validare il codice HTML</p>
+                    </a>
+                    <p>Categoria: develop</p>
+                    <p class="data">Data: 18-9-2020</p>
+                </div>
+                <div class="validare">
+                    <a href="javascript:void(0)">
+                        <p>Correggere la sintassi</p>
+                    </a>
+                    <p>Categoria: develop</p>
+                    <p class="data">Data: 16-9-2020</p>
+                </div>
+                <div class="validare">
+                    <a href="javascript:void(0)">
+                        <p>Meno Kb nella pagina</p>
+                    </a>
+
+                    <p>Categoria: ottimizzazione</p>
+                    <p class="data">Data: 30-9-2020</p>
+                </div>
+            </aside>
+    </div>
+    </main>
+    <hr>
+    <footer id="footer">
+        <p>Blog Epicode ©2021</p>
+        <address>Testata online di Mario Rossi, registrata con prot. n.213/2018 - via Luigi Einaudi 2 - Milano. P.IVA
+            00112233. <a href="javascript:void(0)">info@epicode.schoo</a></address>
+    </footer>
+    </div>
+</body>
+
+</html>
